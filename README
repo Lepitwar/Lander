@@ -1,0 +1,29 @@
+﻿# name:               Dylan Waters
+# ONE Card number:    1343144
+# Unix id:            Dwaters
+# lecture section:    A2
+# lab section:        D02
+# TA's name:          Juehui Fan 
+
+
+To compile:
+Assignment 3 code. Reads in the users inpute of gravity, thrusters and landscape file. 
+ei)
+./lander -t -20 -g 20 -f landscape.txt
+
+Code from the ball.c and timer.c were referenced/used to implement timers and ncurses
+in the final code.
+
+Improvements:
+The variables thrust, gravity, filename and 'i' can be used in any order
+ie) 
+./lander -t -20 -g 20 -f landscape.txt
+./lander -g 20 -t -20 -f landscape.txt
+./lander -f landscape.txt -g 20 -t -20 
+ 
+Added A fuel bar:
+You have 100 fuel cells, using the thrusters decrease the fuel cells
+Fuel gauge shown in top left hand corner
+
+Option to have a initial wind speed:
+Prompts user to input an int to cause a drift to occur.
